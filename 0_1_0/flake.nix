@@ -11,7 +11,6 @@
   inputs.src-httpform-0_1_0.ref   = "refs/tags/0.1.0";
   inputs.src-httpform-0_1_0.owner = "tulayang";
   inputs.src-httpform-0_1_0.repo  = "httpform";
-  inputs.src-httpform-0_1_0.dir   = "";
   inputs.src-httpform-0_1_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

@@ -11,7 +11,6 @@
   inputs.src-httpform-master.ref   = "refs/heads/master";
   inputs.src-httpform-master.owner = "tulayang";
   inputs.src-httpform-master.repo  = "httpform";
-  inputs.src-httpform-master.dir   = "";
   inputs.src-httpform-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
